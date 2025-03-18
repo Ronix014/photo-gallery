@@ -108,7 +108,23 @@ header h1 i {
 .gallery-item:hover .caption {
     opacity: 1;
 }
+#backToTop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 15px;
+    font-size: 14px;
+    background-color: #4b0082;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none; /* Initially hidden */
+}
 
+#backToTop:hover {
+    background-color: #4b0082;
+}
 /* Responsive */
 @media (max-width: 768px) {
     .gallery {
