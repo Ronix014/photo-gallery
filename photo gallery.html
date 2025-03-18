@@ -109,6 +109,25 @@
             <img src="gallery20.jpg" alt="My Reliable friend Cyrus">
             <div class="caption">My Reliable friend Cyrus</div>
         </div>
+        <button id="backToTop" onclick="scrollToTop()">↑ Back to Top</button>
+        </div>
+    </section>
+     <script>
+        window.onscroll = function () { toggleBackToTopButton(); };
+
+        function toggleBackToTopButton() {
+            let button = document.getElementById("backToTop");
+            if (document.documentElement.scrollTop > 200) {
+                button.style.display = "block";
+            } else {
+                button.style.display = "none";
+            }
+        }
+
+        function scrollToTop() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+    </script>
     </div>
     
 </body>
