@@ -63,20 +63,20 @@ header h1 i {
 /* Gallery Styling */
 .gallery {
     display: grid;
-    grid-template-columns: repeat(5, 1fr); /* 5 columns */
-    grid-template-rows: repeat(4, auto); /* 4 rows */
-    gap: 15px;
-    padding: 30px;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(4, auto);
+    gap: 8px; /* Reduced from 15px to 8px */
+    padding: 20px; /* Reduced padding */
 }
 
 .gallery-item {
     position: relative;
     overflow: hidden;
-    width: 200px; /* Fixed width */
-    height: 200px; /* Fixed height */
-    border: 3px solid #4b0082;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 250px; /* Slightly smaller */
+    height: 190px;
+    border: 2px solid #4b0082; /* Slimmer border */
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .gallery img {
