@@ -57,6 +57,7 @@ header h1 i {
 .nav .active a {
     background-color: #6a0dad;
     border-radius: 5px;
+    color: #1de9df;
 }
 
 /* Gallery Styling */
